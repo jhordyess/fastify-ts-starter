@@ -1,14 +1,9 @@
 {
   "name": "fastify-typescript-starter",
-  "description": "",
-  "version": "0.0.1",
-  "author": "Jhordy Gavinchu <dev@jhordyess.com>",
-  "keywords": [],
-  "license": "MIT",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "packageManager": "yarn@4.9.1",
-  "main": "index.js",
   "dependencies": {
     "fastify": "^5.3.2"
   },
