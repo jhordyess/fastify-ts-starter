@@ -1,0 +1,30 @@
+{
+  "name": "fastify-typescript-starter",
+  "description": "",
+  "version": "0.0.1",
+  "author": "Jhordy Gavinchu <dev@jhordyess.com>",
+  "keywords": [],
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "packageManager": "yarn@4.9.1",
+  "main": "index.js",
+  "dependencies": {
+    "fastify": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "ts-check": "tsc --noEmit",
+    "lint": "eslint . --ext .ts",
+    "validate": "yarn lint && yarn ts-check",
+    "format": "prettier --write ."
+  }
+}
