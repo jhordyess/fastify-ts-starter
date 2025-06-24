@@ -9,35 +9,35 @@ importers:
   .:
     dependencies:
       fastify:
-        specifier: ^5.3.3
+        specifier: ^5.4.0
         version: 5.4.0
     devDependencies:
       '@eslint/js':
-        specifier: ^9.26.0
+        specifier: ^9.29.0
         version: 9.29.0
       '@types/node':
-        specifier: ^22.15.18
+        specifier: ^22.15.32
         version: 22.15.32
       eslint:
-        specifier: ^9.26.0
+        specifier: ^9.29.0
         version: 9.29.0
       globals:
-        specifier: ^16.1.0
+        specifier: ^16.2.0
         version: 16.2.0
       husky:
         specifier: ^9.1.7
         version: 9.1.7
       prettier:
-        specifier: ^3.5.3
+        specifier: ^3.6.0
         version: 3.6.0
       tsx:
-        specifier: ^4.19.4
+        specifier: ^4.20.3
         version: 4.20.3
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
       typescript-eslint:
-        specifier: ^8.32.1
+        specifier: ^8.35.0
         version: 8.35.0(eslint@9.29.0)(typescript@5.8.3)
 
 packages:
