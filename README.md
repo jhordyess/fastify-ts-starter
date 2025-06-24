@@ -56,10 +56,10 @@ fastify-typescript-starter/
 ├── .prettierrc.json        # Prettier configuration file.
 ├── eslint.config.js        # ESLint configuration file.
 ├── package.json            # Project configuration and dependencies.
-├── README.md               # Project documentation.
-├── tsconfig.json           # TypeScript configuration file.
 ├── pnpm-lock.yaml          # pnpm lock file for dependency versions.
 ├── pnpm-workspace.yaml     # pnpm workspace configuration file.
+├── README.md               # Project documentation.
+├── tsconfig.json           # TypeScript configuration file.
 ├── .husky/                 # Directory for Git hooks managed by Husky.
 │   ├── pre-push            # Pre-push hook to run linting and TypeScript checks.
 ├── src/
