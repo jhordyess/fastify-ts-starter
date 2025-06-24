@@ -83,7 +83,7 @@ pnpm build
 ### Build the project for production with linting
 
 ```sh
-yarn build:lint
+pnpm build:lint
 ```
 
 ### Start the production server
