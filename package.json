@@ -20,11 +20,11 @@
   "scripts": {
     "start": "node dist/index.js",
     "dev": "tsx watch src/index.ts",
-    "build": "yarn lint && tsc",
+    "build": "pnpm lint && tsc",
     "ts-check": "tsc --noEmit",
     "lint": "eslint .",
-    "validate": "yarn lint && yarn ts-check",
+    "validate": "pnpm lint && pnpm ts-check",
     "format": "prettier --write .",
-    "postinstall": "husky"
+    "prepare": "husky"
   }
 }
