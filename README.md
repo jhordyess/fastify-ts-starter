@@ -6,6 +6,7 @@ This is a starter project for building a backend application using Fastify, Type
 
 - **Fastify**: A fast and low-overhead web framework for Node.js. (v. 5)
 - **TypeScript**: Strongly typed JavaScript for better development experience. (v. 5)
+- **Webpack**: Module bundler for compiling and optimizing the code. (v. 5)
 - **ESLint**: Linting for maintaining code quality. (v. 9)
 - **Prettier**: Code formatting for consistent style. (v. 3)
 - **Husky**: Git hooks for enforcing pre-push checks. (v. 9)
