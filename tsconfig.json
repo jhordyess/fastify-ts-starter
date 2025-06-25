@@ -9,11 +9,13 @@
 
     /* Modules */
     "module": "CommonJS",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
 
     /* JavaScript Support */
 
     /* Emit */
-    "outDir": "./dist",
     "removeComments": true,
 
     /* Interop Constraints */

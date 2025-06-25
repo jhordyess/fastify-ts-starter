@@ -1,11 +1,12 @@
 # Fastify TypeScript Starter
 
-This is a starter project for building a backend application using Fastify with TypeScript.
+This is a starter project for building a backend application using Fastify, TypeScript and Webpack.
 
 ## Features
 
 - **Fastify**: A fast and low-overhead web framework for Node.js. (v. 5)
 - **TypeScript**: Strongly typed JavaScript for better development experience. (v. 5)
+- **Webpack**: Module bundler for compiling and optimizing the code. (v. 5)
 - **ESLint**: Linting for maintaining code quality. (v. 9)
 - **Prettier**: Code formatting for consistent style. (v. 3)
 - **Husky**: Git hooks for enforcing pre-push checks. (v. 9)
@@ -25,13 +26,13 @@ corepack enable pnpm
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/jhordyess/fastify-typescript-starter.git
+git clone https://github.com/jhordyess/fastify-ts-starter.git
 ```
 
 2. Navigate to the project folder:
 
 ```sh
-cd fastify-typescript-starter
+cd fastify-ts-starter
 ```
 
 3. Install dependencies:
@@ -51,7 +52,7 @@ pnpm dev
 ## Project Structure
 
 ```md
-fastify-typescript-starter/
+fastify-ts-starter/
 ├── .gitignore              # List of files and directories to be ignored by version control.
 ├── .prettierrc.json        # Prettier configuration file.
 ├── eslint.config.js        # ESLint configuration file.
